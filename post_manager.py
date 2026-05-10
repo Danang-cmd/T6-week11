@@ -25,7 +25,7 @@ BASE_URL = "https://api.pahrul.my.id/api/posts"
 TIMEOUT  = 10
 
 class ApiWorker(QObject):
-    success  = Signal(object)   # dict or list
+    success  = Signal(object)
     error    = Signal(str)
     finished = Signal()
 
